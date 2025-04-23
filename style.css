@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #ff99cc, #66ccff);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+h1 {
+    color: #ff3399;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.name-spell {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.letter {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.s { background: #ff6666; color: white; }
+.h { background: #ff9966; color: white; }
+.a { background: #ffcc66; color: white; }
+.r { background: #99ff66; color: white; }
+.o { background: #66ffcc; color: white; }
+.n { background: #66ccff; color: white; }
+.m { background: #9966ff; color: white; }
+.u { background: #ff66cc; color: white; }
+.g { background: #ff99cc; color: white; }
+.a2 { background: #ff3399; color: white; }
+
+.message {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.message p {
+    margin: 10px 0;
+}
